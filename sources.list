@@ -1,0 +1,7 @@
+# deb cdrom:[elementary OS 7.1 _horus_ - stable amd64 (20230926)]/ jammy contrib main non-free
+deb http://archive.ubuntu.com/ubuntu/ jammy main restricted universe multiverse
+deb-src http://archive.ubuntu.com/ubuntu/ jammy main restricted universe multiverse
+deb http://security.ubuntu.com/ubuntu/ jammy-security main restricted universe multiverse
+deb-src http://security.ubuntu.com/ubuntu/ jammy-security main restricted universe multiverse
+deb http://archive.ubuntu.com/ubuntu/ jammy-updates main restricted universe multiverse
+deb-src http://archive.ubuntu.com/ubuntu/ jammy-updates main restricted universe multiverse
