@@ -19,3 +19,4 @@ apt update
 
 
 sudo cp -a /etc/fstab /etc/fstab.bak
+sudo cp -a /etc/passwd /etc/passwd.bak
