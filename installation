@@ -1,13 +1,11 @@
 
-cd ~/Downloads
+sudo apt install software-properties-common
 
-tar xjf firefox-*.tar.bz2
+sudo add-apt-repository -y ppa:mozillateam/firefox-next
 
-mv firefox /opt
+echo -e 'Package: *\nPin: release o=LP-PPA-mozillateam-firefox-next\nPin-Priority: 600' | sudo tee /etc/apt/preferences.d/mozillateam-firefox-next-pin-600
 
-ln -s /opt/firefox/firefox /usr/local/bin/firefox
-
-wget https://raw.githubusercontent.com/mozilla/sumo-kb/main/install-firefox-linux/firefox.desktop -P /usr/local/share/applications
+sudo apt install -y firefox
 
 
 sudo cp -a /etc/apt/sources.list /etc/apt/sources.list.bak
